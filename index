@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Retro Weather Channel Forecast</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <header>Local Forecast</header>
+    <section id="current" class="module">
+      <h2>Current Conditions</h2>
+      <div id="current-weather"></div>
+    </section>
+    <section id="forecast" class="module">
+      <h2>3-Day Forecast</h2>
+      <div id="forecast-weather"></div>
+    </section>
+    <footer>
+      <marquee behavior="scroll" direction="left" id="ticker">
+        Loading weather alerts...
+      </marquee>
+    </footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
